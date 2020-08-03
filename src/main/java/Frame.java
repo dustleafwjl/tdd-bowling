@@ -16,4 +16,10 @@ public class Frame {
     public int getTotalScore() {
         return firstScore + secondScore;
     }
+    public int getFirstScore() {
+        return firstScore;
+    }
+    public int getSecondScore() {
+        return secondScore;
+    }
 }
