@@ -5,7 +5,7 @@ public class BowlingGameTest {
     @Test
     public void should_get_sum_when_getlinescore_given_without_strike_and_spare() {
         BowlingGame bowlingGame = new BowlingGame();
-        Assertions.assertEquals(50, bowlingGame.getLineScore("5-4|5-4|5-4|5-4|5-4|5-4|5-4|5-4|5-4|5-4"));
+        Assertions.assertEquals(90, bowlingGame.getLineScore("5-4|5-4|5-4|5-4|5-4|5-4|5-4|5-4|5-4|5-4"));
     }
     @Test
     public void should_get_sum_when_getlinescore_given_all_strike() {
